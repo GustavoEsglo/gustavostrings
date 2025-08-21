@@ -16,11 +16,13 @@ body {
     justify-content: center;
     align-items: center;
     padding: 16px 21px 18px 21px;
-    background: var(--cor-gradiente-preto);
     height: 100vh;
     flex-direction: column;
+    background: url('https://example.com/imagem-rural.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.5); /* Cor semitransparente para melhorar a legibilidade */
 }
-
 
 .container {
     display: flex;
